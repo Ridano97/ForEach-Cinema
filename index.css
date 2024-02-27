@@ -63,10 +63,6 @@ header {
     .list_content_one {
         padding: 0 35px;
     }
-
-    .list_content {      
-    }
-    
 }
 
 @media screen and (max-width: 480px) {
@@ -94,10 +90,76 @@ header {
         padding: 0 35px;
         font-size: 15px;
     }
+}
 
-    
+#jumbotron {
+    max-width: 1600px;
+    margin: auto;
+    background-image: url(./assets/images/ad.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 
+}
 
+#block_inside_jumbotron {
+    background-color: rgba(0, 0, 0, 0.539);
+    color: white;
+    font-family: uniform;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    padding: 25px 10px ;
+    flex-direction: column;
+}
 
+#block_content_slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.slogan_price {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#button_jumbotron {
+    width: 100%;
+    color: white;
+    font-family: uniform;
+    font-size: 20px;
+    background-color: #D03737 ;
+    border-radius: 3px;
+    padding: 10px 150px;
+    border: none;
+}
+
+#block_section_content {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+}
+
+#block_section_content :nth-child(2) {
+    margin-left: 5px;
+}
+
+.button_section {
+    width: 50%;
+    margin-top: 15px ;
+    border: none;
+    padding: 10px 0;
+    background-color: #186CB0;
+    color: white;
+    font-family: uniform;
 }
