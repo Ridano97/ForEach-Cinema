@@ -339,3 +339,13 @@ img {
     color: white;
     font-family: uniform;
 }
+
+
+footer {
+    background-color: #186CB0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: uniform ;
+    padding: 10px;
+}
