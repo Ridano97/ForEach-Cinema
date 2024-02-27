@@ -1,0 +1,103 @@
+@font-face {
+    font-family: uniform ;
+    src: url(./assets/fonts/Uniform.ttf);
+}
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+header {
+    background-color: #186CB0 ;
+    color: white;
+    font-family: uniform;
+    width: 100%;
+}
+
+#block_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.list_nav {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list_content {
+    padding: 0px 10px;
+    
+}
+
+.list_content_one {
+    padding: 0 50px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+    #block_header {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .list_nav {
+        font-size: 10px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .list_content_one {
+        padding: 0 35px;
+    }
+
+    .list_content {      
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    #block_header {
+        padding: 10px 5;
+    }
+       
+    #titre_header {
+        font-size: 10px;
+    }
+
+    .list_nav :nth-child(2) {
+        display: none;
+    }
+
+    .list_content {
+        font-size: 10px;
+    }
+
+    .list_nav {
+        justify-content: end;
+    }
+
+    .list_content_one {
+        padding: 0 35px;
+        font-size: 15px;
+    }
+
+    
+
+
+
+
+}
