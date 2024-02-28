@@ -379,3 +379,33 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+#ad {
+    background-color: rgb(241, 241, 92);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+#ad p {
+    width: 98%;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: uniform ;
+
+}
+
+#ad span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#ad span:hover {
+    background-color: rgb(225, 225, 48);
+    cursor: pointer;
+}
+
